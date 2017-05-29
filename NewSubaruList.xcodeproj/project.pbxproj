@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F9079FE51ED81D5A0089E772 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F9079FE41ED81D5A0089E772 /* main.m */; };
+		F9079FE81ED81D5A0089E772 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F9079FE71ED81D5A0089E772 /* AppDelegate.m */; };
+		F9079FEB1ED81D5A0089E772 /* CarsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9079FEA1ED81D5A0089E772 /* CarsViewController.m */; };
+		F9079FEE1ED81D5A0089E772 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9079FEC1ED81D5A0089E772 /* Main.storyboard */; };
+		F9079FF01ED81D5A0089E772 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9079FEF1ED81D5A0089E772 /* Assets.xcassets */; };
+		F9079FF31ED81D5A0089E772 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9079FF11ED81D5A0089E772 /* LaunchScreen.storyboard */; };
+		F9079FFE1ED81D5B0089E772 /* NewSubaruListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9079FFD1ED81D5B0089E772 /* NewSubaruListTests.m */; };
+		F907A0091ED81D5B0089E772 /* NewSubaruListUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F907A0081ED81D5B0089E772 /* NewSubaruListUITests.m */; };
+		F907A0241ED827310089E772 /* Cars.plist in Resources */ = {isa = PBXBuildFile; fileRef = F907A0231ED827310089E772 /* Cars.plist */; };
+		F9D128B61ED971FB00B85881 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D128B51ED971FB00B85881 /* CollectionViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F9079FFA1ED81D5B0089E772 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9079FD81ED81D5A0089E772 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9079FDF1ED81D5A0089E772;
+			remoteInfo = NewSubaruList;
+		};
+		F907A0051ED81D5B0089E772 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9079FD81ED81D5A0089E772 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9079FDF1ED81D5A0089E772;
+			remoteInfo = NewSubaruList;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F9079FE01ED81D5A0089E772 /* NewSubaruList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewSubaruList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9079FE41ED81D5A0089E772 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F9079FE61ED81D5A0089E772 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F9079FE71ED81D5A0089E772 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F9079FE91ED81D5A0089E772 /* CarsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarsViewController.h; sourceTree = "<group>"; };
+		F9079FEA1ED81D5A0089E772 /* CarsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarsViewController.m; sourceTree = "<group>"; };
+		F9079FED1ED81D5A0089E772 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F9079FEF1ED81D5A0089E772 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F9079FF21ED81D5A0089E772 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F9079FF41ED81D5A0089E772 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9079FF91ED81D5B0089E772 /* NewSubaruListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewSubaruListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9079FFD1ED81D5B0089E772 /* NewSubaruListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewSubaruListTests.m; sourceTree = "<group>"; };
+		F9079FFF1ED81D5B0089E772 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F907A0041ED81D5B0089E772 /* NewSubaruListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewSubaruListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F907A0081ED81D5B0089E772 /* NewSubaruListUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewSubaruListUITests.m; sourceTree = "<group>"; };
+		F907A00A1ED81D5B0089E772 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F907A0231ED827310089E772 /* Cars.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Cars.plist; path = ../../SubaruInfo/SubaruInfo/Cars.plist; sourceTree = "<group>"; };
+		F9D128B41ED971FB00B85881 /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		F9D128B51ED971FB00B85881 /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9079FDD1ED81D5A0089E772 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9079FF61ED81D5B0089E772 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F907A0011ED81D5B0089E772 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F9079FD71ED81D5A0089E772 = {
+			isa = PBXGroup;
+			children = (
+				F9079FE21ED81D5A0089E772 /* NewSubaruList */,
+				F9079FFC1ED81D5B0089E772 /* NewSubaruListTests */,
+				F907A0071ED81D5B0089E772 /* NewSubaruListUITests */,
+				F9079FE11ED81D5A0089E772 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F9079FE11ED81D5A0089E772 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9079FE01ED81D5A0089E772 /* NewSubaruList.app */,
+				F9079FF91ED81D5B0089E772 /* NewSubaruListTests.xctest */,
+				F907A0041ED81D5B0089E772 /* NewSubaruListUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9079FE21ED81D5A0089E772 /* NewSubaruList */ = {
+			isa = PBXGroup;
+			children = (
+				F9079FE61ED81D5A0089E772 /* AppDelegate.h */,
+				F9079FE71ED81D5A0089E772 /* AppDelegate.m */,
+				F9D128B41ED971FB00B85881 /* CollectionViewCell.h */,
+				F9D128B51ED971FB00B85881 /* CollectionViewCell.m */,
+				F9079FE91ED81D5A0089E772 /* CarsViewController.h */,
+				F9079FEA1ED81D5A0089E772 /* CarsViewController.m */,
+				F9079FEC1ED81D5A0089E772 /* Main.storyboard */,
+				F9079FEF1ED81D5A0089E772 /* Assets.xcassets */,
+				F9079FF11ED81D5A0089E772 /* LaunchScreen.storyboard */,
+				F907A0231ED827310089E772 /* Cars.plist */,
+				F9079FF41ED81D5A0089E772 /* Info.plist */,
+				F9079FE31ED81D5A0089E772 /* Supporting Files */,
+			);
+			path = NewSubaruList;
+			sourceTree = "<group>";
+		};
+		F9079FE31ED81D5A0089E772 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9079FE41ED81D5A0089E772 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F9079FFC1ED81D5B0089E772 /* NewSubaruListTests */ = {
+			isa = PBXGroup;
+			children = (
+				F9079FFD1ED81D5B0089E772 /* NewSubaruListTests.m */,
+				F9079FFF1ED81D5B0089E772 /* Info.plist */,
+			);
+			path = NewSubaruListTests;
+			sourceTree = "<group>";
+		};
+		F907A0071ED81D5B0089E772 /* NewSubaruListUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F907A0081ED81D5B0089E772 /* NewSubaruListUITests.m */,
+				F907A00A1ED81D5B0089E772 /* Info.plist */,
+			);
+			path = NewSubaruListUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9079FDF1ED81D5A0089E772 /* NewSubaruList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F907A00D1ED81D5B0089E772 /* Build configuration list for PBXNativeTarget "NewSubaruList" */;
+			buildPhases = (
+				F9079FDC1ED81D5A0089E772 /* Sources */,
+				F9079FDD1ED81D5A0089E772 /* Frameworks */,
+				F9079FDE1ED81D5A0089E772 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NewSubaruList;
+			productName = NewSubaruList;
+			productReference = F9079FE01ED81D5A0089E772 /* NewSubaruList.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F9079FF81ED81D5B0089E772 /* NewSubaruListTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F907A0101ED81D5B0089E772 /* Build configuration list for PBXNativeTarget "NewSubaruListTests" */;
+			buildPhases = (
+				F9079FF51ED81D5B0089E772 /* Sources */,
+				F9079FF61ED81D5B0089E772 /* Frameworks */,
+				F9079FF71ED81D5B0089E772 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9079FFB1ED81D5B0089E772 /* PBXTargetDependency */,
+			);
+			name = NewSubaruListTests;
+			productName = NewSubaruListTests;
+			productReference = F9079FF91ED81D5B0089E772 /* NewSubaruListTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F907A0031ED81D5B0089E772 /* NewSubaruListUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F907A0131ED81D5B0089E772 /* Build configuration list for PBXNativeTarget "NewSubaruListUITests" */;
+			buildPhases = (
+				F907A0001ED81D5B0089E772 /* Sources */,
+				F907A0011ED81D5B0089E772 /* Frameworks */,
+				F907A0021ED81D5B0089E772 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F907A0061ED81D5B0089E772 /* PBXTargetDependency */,
+			);
+			name = NewSubaruListUITests;
+			productName = NewSubaruListUITests;
+			productReference = F907A0041ED81D5B0089E772 /* NewSubaruListUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9079FD81ED81D5A0089E772 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Viacheslav Goroshniuk";
+				TargetAttributes = {
+					F9079FDF1ED81D5A0089E772 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 8CX72D5RZN;
+						ProvisioningStyle = Automatic;
+					};
+					F9079FF81ED81D5B0089E772 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 8CX72D5RZN;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F9079FDF1ED81D5A0089E772;
+					};
+					F907A0031ED81D5B0089E772 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 8CX72D5RZN;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F9079FDF1ED81D5A0089E772;
+					};
+				};
+			};
+			buildConfigurationList = F9079FDB1ED81D5A0089E772 /* Build configuration list for PBXProject "NewSubaruList" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F9079FD71ED81D5A0089E772;
+			productRefGroup = F9079FE11ED81D5A0089E772 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9079FDF1ED81D5A0089E772 /* NewSubaruList */,
+				F9079FF81ED81D5B0089E772 /* NewSubaruListTests */,
+				F907A0031ED81D5B0089E772 /* NewSubaruListUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9079FDE1ED81D5A0089E772 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9079FF31ED81D5A0089E772 /* LaunchScreen.storyboard in Resources */,
+				F907A0241ED827310089E772 /* Cars.plist in Resources */,
+				F9079FF01ED81D5A0089E772 /* Assets.xcassets in Resources */,
+				F9079FEE1ED81D5A0089E772 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9079FF71ED81D5B0089E772 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F907A0021ED81D5B0089E772 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9079FDC1ED81D5A0089E772 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9079FEB1ED81D5A0089E772 /* CarsViewController.m in Sources */,
+				F9D128B61ED971FB00B85881 /* CollectionViewCell.m in Sources */,
+				F9079FE81ED81D5A0089E772 /* AppDelegate.m in Sources */,
+				F9079FE51ED81D5A0089E772 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9079FF51ED81D5B0089E772 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9079FFE1ED81D5B0089E772 /* NewSubaruListTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F907A0001ED81D5B0089E772 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F907A0091ED81D5B0089E772 /* NewSubaruListUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F9079FFB1ED81D5B0089E772 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9079FDF1ED81D5A0089E772 /* NewSubaruList */;
+			targetProxy = F9079FFA1ED81D5B0089E772 /* PBXContainerItemProxy */;
+		};
+		F907A0061ED81D5B0089E772 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9079FDF1ED81D5A0089E772 /* NewSubaruList */;
+			targetProxy = F907A0051ED81D5B0089E772 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F9079FEC1ED81D5A0089E772 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9079FED1ED81D5A0089E772 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F9079FF11ED81D5A0089E772 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9079FF21ED81D5A0089E772 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F907A00B1ED81D5B0089E772 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F907A00C1ED81D5B0089E772 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F907A00E1ED81D5B0089E772 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8CX72D5RZN;
+				INFOPLIST_FILE = NewSubaruList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.viacheslavgoroshniuk.NewSubaruList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F907A00F1ED81D5B0089E772 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8CX72D5RZN;
+				INFOPLIST_FILE = NewSubaruList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.viacheslavgoroshniuk.NewSubaruList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F907A0111ED81D5B0089E772 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8CX72D5RZN;
+				INFOPLIST_FILE = NewSubaruListTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.viacheslavgoroshniuk.NewSubaruListTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NewSubaruList.app/NewSubaruList";
+			};
+			name = Debug;
+		};
+		F907A0121ED81D5B0089E772 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8CX72D5RZN;
+				INFOPLIST_FILE = NewSubaruListTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.viacheslavgoroshniuk.NewSubaruListTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NewSubaruList.app/NewSubaruList";
+			};
+			name = Release;
+		};
+		F907A0141ED81D5B0089E772 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 8CX72D5RZN;
+				INFOPLIST_FILE = NewSubaruListUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.viacheslavgoroshniuk.NewSubaruListUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NewSubaruList;
+			};
+			name = Debug;
+		};
+		F907A0151ED81D5B0089E772 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 8CX72D5RZN;
+				INFOPLIST_FILE = NewSubaruListUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.viacheslavgoroshniuk.NewSubaruListUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NewSubaruList;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9079FDB1ED81D5A0089E772 /* Build configuration list for PBXProject "NewSubaruList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F907A00B1ED81D5B0089E772 /* Debug */,
+				F907A00C1ED81D5B0089E772 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F907A00D1ED81D5B0089E772 /* Build configuration list for PBXNativeTarget "NewSubaruList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F907A00E1ED81D5B0089E772 /* Debug */,
+				F907A00F1ED81D5B0089E772 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F907A0101ED81D5B0089E772 /* Build configuration list for PBXNativeTarget "NewSubaruListTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F907A0111ED81D5B0089E772 /* Debug */,
+				F907A0121ED81D5B0089E772 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F907A0131ED81D5B0089E772 /* Build configuration list for PBXNativeTarget "NewSubaruListUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F907A0141ED81D5B0089E772 /* Debug */,
+				F907A0151ED81D5B0089E772 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F9079FD81ED81D5A0089E772 /* Project object */;
+}
