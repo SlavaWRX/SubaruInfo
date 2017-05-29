@@ -34,17 +34,17 @@ static NSString * const reuseIdentifier = @"Cell";
     cars = [[NSArray alloc] initWithContentsOfFile:path];
     
 
-    /*
+    
     UICollectionViewFlowLayout* viewFlowLayout = [[UICollectionViewFlowLayout alloc] init];
     
-    UICollectionView* collectionView = [[UICollectionView alloc] initWithFrame:CGRectMake(<#CGFloat x#>, <#CGFloat y#>, <#CGFloat width#>, <#CGFloat height#>) collectionViewLayout:<#(nonnull UICollectionViewLayout *)#>;
+    UICollectionView* collectionView = [[UICollectionView alloc] initWithFrame:CGRectMake(13, 14, self.view.frame.size.width, self.view.frame.size.height) collectionViewLayout:viewFlowLayout];
     collectionView.delegate = self;
     collectionView.dataSource = self;
     
     [collectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:@"cell"];
     
     [self.view addSubview:collectionView];
-                                        */
+                                        
 }
 
 
@@ -66,7 +66,8 @@ static NSString * const reuseIdentifier = @"Cell";
      
     for (int i = 0; i < cars.count; i++) {
         
-        
+        CollectionViewCell* viewCell = [[[NSBundle mainBundle] loadNibNamed:@"CollectionViewCell" owner:self options:nil] objectAtIndex:0];
+        viewCell.imageCellView.image = [UIImage imageNamed:cars[i][@"Name"]];
         
     }
     

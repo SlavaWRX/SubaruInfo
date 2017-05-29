@@ -90,7 +90,6 @@
                     <connections>
                         <outlet property="collectionView" destination="oGS-ol-m83" id="gJ5-iI-0Pi"/>
                         <outlet property="darkView" destination="7k4-kN-7w7" id="WaV-xy-B13"/>
-                        <outlet property="imageView" destination="b1f-0V-dCS" id="urh-rV-WV8"/>
                         <outlet property="menuView" destination="40u-lh-zud" id="Upn-A1-Ehi"/>
                         <outlet property="pageControl" destination="lB7-68-wMC" id="INQ-zP-CE4"/>
                         <outlet property="roundButton" destination="3vE-Es-gSN" id="73U-rC-1RW"/>
